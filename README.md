@@ -6,7 +6,7 @@ I am Raymond Chung, a senior majoring in Computer Science and Education at Queen
 A 15 minutes tutorial on using Swift 3 for iOS Development. This tutorial is intended for beginners with little or no experience in Swift or iOS Development. I have split the sections into 2 parts, where you can access any of the steps by switching branches.
 
 ## When
-Anytime you are ready to learn about Swift 3
+Anytime you are ready to learn about Swift 3.
 
 ## Where
 On a Macbook! Sorry Windows devices!
