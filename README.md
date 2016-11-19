@@ -1,5 +1,18 @@
 # GetStartedWithSwift3
-A 15 minutes tutorial on using Swift 3 for iOS Development
+## Who
+I am Raymond Chung, a senior majoring in Computer Science and Education at Queen's University in Kingston, ON, Canada. I specialize my skills in web and iOS development and am learning something new each day. I have been programming for about 4 years, and love every moment of it!
+
+## What
+A 15 minutes tutorial on using Swift 3 for iOS Development. This tutorial is intended for beginners with little or no experience in Swift or iOS Development. I have split the sections into 2 parts, where you can access any of the steps by switching branches.
+
+## When
+Anytime you are ready to learn about Swift 3
+
+## Where
+On a Macbook! Sorry Windows devices!
+
+## Why
+Swift is an open-source language developed by Apple and mainly used for developing iOS apps. A lot of companies are shifting towards mobile applications and knowing Swift as a language would greatly benefit you and companies looking for Swift developers.
 
 ## Table of Contents
 - [Overview](#overview)
