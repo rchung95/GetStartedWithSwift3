@@ -1,6 +1,15 @@
 # GetStartedWithSwift3
 A 15 minutes tutorial on using Swift 3 for iOS Development
 
+## Table of Contents
+- [Overview](#overview)
+- [Setting Up Your Xcode Project](#setting-up-your-xcode-project)
+- [Adding Hello World](#adding-hello-world)
+- [Changing Label Text](#changing-label-text)
+
+### Overview
+Within this step, we will be learning how to use the storyboard feature and connect it to our swift file.
+
 ### Setting Up Your Xcode Project
 1) Open up Xcode on your Mac.
 
@@ -40,7 +49,7 @@ The storyboard is a feature that allows us to build UI faster. You can think of 
 10) Click on the Venn Diagram icon located top right of the screen and ```ViewController.Swift``` will be side to side with the storyboard. Click and hold the label and drag it right before the ```override func viewDidLoad()``` function. Name it (in my case ```HelloWorldLabel```) and hit enter.
 
 Your code should now look like:
-```
+```swift
 class ViewController: UIViewController {
 
     @IBOutlet weak var HelloWorldLabel: UILabel!
@@ -64,7 +73,7 @@ Let's move onto changing that ```HelloWorldLabel``` programmically!
 ### Changing Label Text
 13) Within the function ```viewDidLoad```, add ```HelloWorldLabel.text = "Goodbye World!"``` right under the ```super.viewDidLoad()```
 Your code should now look like:
-```
+```swift
 class ViewController: UIViewController {
 
     @IBOutlet weak var HelloWorldLabel: UILabel!
@@ -90,3 +99,5 @@ Save and and run it again! Now you will see the label change but it does not fit
 15) Save and run it! You will now see it fitting the screen of your simulator.
 
 ![Fixed Label](http://i.imgur.com/JEcyY1S.png)
+
+## When you are ready, please continue to step 2 by changing the branch to ```Step 2: Adding Button```
