@@ -9,11 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var choice = true
+    @IBAction func ChangeLabel(_ sender: UIButton) {
+        if choice == true {
+            HelloWorldLabel.text = "Goodbye World!"
+            HelloWorldLabel.textColor = UIColor.white
+            view.backgroundColor = UIColor.red
+            choice = false
+        } else {
+            HelloWorldLabel.text = "Hello World!"
+            HelloWorldLabel.textColor = UIColor.black
+            view.backgroundColor = UIColor.white
+            choice = true
+        }
+    }
     @IBOutlet weak var HelloWorldLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        HelloWorldLabel.text = "Goodbye World!"
     }
 
     override func didReceiveMemoryWarning() {
